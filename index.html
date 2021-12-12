@@ -1,0 +1,40 @@
+<!Doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ola Mundo!</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid grid-template-areas">
+            <div id="visor" class="visor center "></div>
+            <div id="minhadiv" class="teclas teclas-verdes center sete" value="7" onClick="ativa(this)">7</div>
+            <div id="oito" class=" teclas teclas-verdes center oito" onClick="ativa(this)" value="8">8</div>
+            <div id="nove" class=" teclas teclas-verdes center nove" onClick="ativa(this)" value="9">9</div>
+            <div id="adicao" class=" teclas teclas-verdes center adicao" onClick="ativa(this)" value="+">+</div>
+            <div id="quatro" class="teclas teclas-verdes center quatro" onClick="ativa(this)" value="4">4</div>
+            <div id="cinco" class="teclas teclas-verdes center cinco" onClick="ativa(this)" value="5">5</div>
+            <div id="seis" class="teclas teclas-verdes center seis" onClick="ativa(this)" value="6">6</div>
+            <div id="menos" class="teclas teclas-verdes center menos" onClick="ativa(this)" value="-">-</div>
+            <div id="um" class="teclas teclas-verdes center um" onClick="ativa(this)" value="1">1</div>
+            <div id="dois" class="teclas teclas-verdes center dois" onClick="ativa(this)" value="2">2</div>
+            <div id="tres" class="teclas teclas-verdes center tres" onClick="ativa(this)" value="3">3</div>
+            <div id="multi" class="teclas teclas-verdes center multiplica" onClick="ativa(this)" value="*">*</div>
+            <div id="zero" class="teclas-brancas teclas-big center zero" onClick="ativa(this)" value="0">0</div>
+            <div id="igual" class="teclas-brancas teclas-big center igual" onClick="igual()">=</div>
+            <div class="grid-template-baixo conjunto conjunto">
+                <div id="virgula" class="teclas teclas-verdes center virgula" onClick="ativa(this)" value=",">,</div>
+                <div id="divisao" class="teclas teclas-verdes center divisao" onClick="ativa(this)" value="/">/</div>
+                <div class="teclas-brancas center ac" onClick="limpar()">AC</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
