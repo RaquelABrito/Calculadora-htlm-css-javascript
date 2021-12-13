@@ -29,5 +29,5 @@ function limpar() {
 
 function igual() {
     document.getElementById('visor').innerHTML = eval(valoresDigitados);
-    //console.log(valoresDigitados);
+    console.log(valoresDigitados);
 }
