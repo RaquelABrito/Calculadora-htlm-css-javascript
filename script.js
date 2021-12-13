@@ -9,9 +9,10 @@ function ativa(obj) {
 
 
 
-    if (valueDiv == "-" || valueDiv == "+" || valueDiv == "/" || valueDiv == "*") {
+    if (valueDiv == "-" || valueDiv == "+" || valueDiv == "/" || valueDiv == "*" ) {
         if (valueDiv == ",") {
             valueDiv == ".";
+            console.log(valueDiv);
         }
     } else {
         parseFloat(valueDiv);
